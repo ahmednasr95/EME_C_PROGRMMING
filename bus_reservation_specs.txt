@@ -1,0 +1,35 @@
+A bus reservation system is required to do the following:
+1 - A user is requested to provide an ID and Password to login to the system.
+	If only one of the two inputs is invalid, the system shall indicate which input is invalid, 
+	otherwise; the system shall indicate that both are invalid. The system shall continue prompting the user 
+	for the login information till the user provides valid inputs.
+
+2 - In case both ID and password are valid, the user shall be requested to provide the operation required to be done. 
+	The operations can be either reservation of a ticket or a cancellation of a ticket.
+
+3 - Incase the user inserted an invalid input, the system shall indicate that the input is invalid initiate the previous request again.
+
+4 - Incase the user chose to reserve a seat, the system shall ask for the destination and pickup locations required. 
+	The system then checks if the locations inserted are valid. If only one of the locations is invalid, the system
+	shall indicate which location is invalid, otherwise; the system shall indicate that both locations are invalid.
+
+5 - Incase both locations are valid, the system shall check for the availability of free seats and then indicates the seats available
+	to the user while prompting if the user would like to continue the reservation procedure.
+
+6 - Incase there are no free seats available, the system shall indicate to the user that no seats are available and
+	prompt the user if another operation is required or not.
+
+7 - Any system prompts shall be handled such that the system accepts only yes or no as a valid input, 
+	otherwise; the system shall keep the prompt till the user enters a valid input.
+
+8 - In case the user accepts the reservation, The system shall generate a reservation id, link the id to the user, 
+	and provide the user with the ID.
+
+9 - In case the user chose to cancel a seat, the system shall prompt the user to provide the reservation id to be canceled.
+
+10 - the system shall check for the validitiy of the reservation id. If the id is invalid, the system shall indicate that the id
+	is invalid and prompt the user to provide a valid id.
+
+11 - At the end of each successful operation whether it is reserving a seat or canceling a reservation, the system shall prompt the
+	user if another operation is required or not.
+ 
